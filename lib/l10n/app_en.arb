@@ -1,0 +1,30 @@
+{
+  "newVisit": "New Visit",
+  "@newVisit": {
+    "description": "The current Language"
+  },
+  "activeVisits": "Active Visits",
+  "@activeVisits": {
+    "description": "The current Language"
+  },
+  "agenda": "Visitor's agenda",
+  "@agenda": {
+    "description": "The current Language"
+  },
+  "history": "Visitor History",
+  "@history": {
+    "description": "The current Language"
+  },
+  "packages": "Packages",
+  "@packages": {
+    "description": "The current Language"
+  },
+  "keys": "Keys",
+  "@keys": {
+    "description": "The current Language"
+  },
+  "surveillance": "Surveillance anomalies",
+  "@surveillance": {
+    "description": "The current Language"
+  }
+}

@@ -1,0 +1,58 @@
+name: CTApp
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-261.0.dev <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.18.0
+
+  lottie: ^2.3.2
+
+  cupertino_icons: ^1.0.5
+  animated_bottom_navigation_bar: ^1.2.0
+  flutter_statusbarcolor_ns: ^0.5.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/splashScreen/
+    - assets/img/
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
